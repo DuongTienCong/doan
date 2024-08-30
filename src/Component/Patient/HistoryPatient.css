@@ -1,0 +1,55 @@
+/* Căn giữa toàn bộ phần chứa */
+.historypt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa nội dung theo chiều ngang */
+    justify-content: center; /* Căn giữa nội dung theo chiều dọc */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px; /* Đặt giới hạn chiều rộng tối đa */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Căn giữa hình tròn */
+.historypt-profile {
+    text-align: center;
+    margin-bottom: 20px; /* Thêm khoảng cách bên dưới hình tròn */
+}
+
+.historypt-profile img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 3px solid aqua; 
+    object-fit: cover; 
+}
+
+/* Căn giữa bảng */
+table {
+    width: 100%; /* Tăng chiều rộng của bảng để phù hợp với kích thước mong muốn */
+    border-collapse: collapse;
+    margin-top: 20px; /* Tạo khoảng cách trên bảng */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px; /* Tăng khoảng cách trong các ô */
+    font-size: 16px; /* Tăng kích thước chữ */
+}
+
+th {
+    background-color: #f9f9f9;
+}
+
+.details-link {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+}
+

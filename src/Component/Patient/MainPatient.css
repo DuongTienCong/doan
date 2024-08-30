@@ -1,0 +1,171 @@
+body, p, h3, li, input, a {
+    font-family: Arial, sans-serif; 
+    font-weight: normal; 
+    text-transform: none; 
+}
+
+.mainpt {
+    flex-direction: column;
+    margin-left: 40px;
+    width: 700px;
+}
+
+.mainpt-dashboard {
+    display: flex;
+    flex-grow: 1; 
+    padding: 20px;
+}
+  
+.mainpt-search {
+    margin-left: 45px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+.mainpt-input input {
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.mainpt-input {
+    position: relative;
+    display: inline-block;
+}
+
+.mainpt-input input[type="text"] {
+    padding-left: 30px;
+}
+
+.mainpt-search-icon {
+    position: absolute;
+    left: 10px;
+    top: 67%;
+    transform: translateY(-50%);
+    color: #ccc;
+}
+
+.mainpt-card {
+    display: flex;
+    align-items: center;
+}
+  
+.mainpt-card-blood, .mainpt-card-heart, .mainpt-card-total {
+    width: 150px;
+    height: 200px;
+    margin: 0 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+  
+.mainpt-card-blood:hover, .mainpt-card-heart:hover, .mainpt-card-total:hover {
+    background-color: #007bff;
+}
+  
+.mainpt-card-blood .mainpt-icon, .mainpt-card-heart .mainpt-icon, .mainpt-card-total .mainpt-icon {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+  
+.mainpt-card-blood .mainpt-icon {
+    color: red;
+}
+  
+.mainpt-card-heart .mainpt-icon {
+    color: red;
+}
+  
+.mainpt-card-total .mainpt-icon {
+    color: orange;
+}
+  
+.mainpt-card-blood .mainpt-info h3, .mainpt-card-heart .mainpt-info h3, .mainpt-card-total .mainpt-info h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem; 
+}
+  
+.mainpt-card-blood .mainpt-info p, .mainpt-card-heart .mainpt-info p, .mainpt-card-total .mainpt-info p {
+    text-align: center;
+    font-size: 1.5rem; 
+    color: black;
+}
+  
+.mainpt-chart-section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+    
+.mainpt-chart-section h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-right: 50px;
+    
+}
+    
+.mainpt-chart-section img {
+    width: 70%;
+    height: 360px;
+    display: block;
+    border-radius: 10px;
+    margin-left: 20px;
+    align-items: center;
+}
+    
+.mainpt-history-section {
+    width: 100%;
+}
+    
+.mainpt-history-section h3 {
+    text-align: center;
+    margin-bottom: 10px; 
+    font-size: 30px;
+    margin-right: 50px;
+
+}
+    
+.mainpt-history-section table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 15px; 
+    margin-left: 50px;
+}
+
+.mainpt-history-section table, th, td {
+    border: 1px solid #ddd;
+}
+
+.mainpt-history-section th, td {
+    padding: 13px;  
+    font-size: 14px; 
+    text-align: center;
+}
+
+.mainpt-history-section th {
+    background-color: #f9f9f9;
+}
+
+
+.mainpt-history-section .details-link {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px; 
+    text-align: center;
+    display: block;
+}

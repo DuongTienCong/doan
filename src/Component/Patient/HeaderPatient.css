@@ -1,0 +1,83 @@
+.headerpt-fluid{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.headerpt {
+    width: 200px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerpt-logo {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.headerpt-logo img {
+    width: 100%;
+    margin-left: 5px;
+    height: 100px;
+}
+
+.headerpt-links {
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.headerpt-links li {
+    margin: 30px 0;
+}
+
+.headerpt-links a {
+    color: darkslategrey;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.headerpt-links li:hover {
+    color: blue;
+}
+
+.headerpt-links a:hover {
+    color: blue;
+}
+
+.headerpt-spacer {
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.headerpt-spacer  li {
+    margin: 30px 0;
+}
+
+.headerpt-spacer  li a {
+    color: darkslategrey;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.headerpt-spacer  li:hover {
+    color: blue;
+}
+
+.headerpt-spacer  a:hover {
+    color: blue;
+}
+.logout-button {
+    background-color: transparent; 
+    border: none; 
+    color: darkslategrey; 
+    font-size: 13px; 
+    cursor: pointer; 
+}
+
+.logout-button:hover {
+    color: blue; 
+}
+
